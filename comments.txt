@@ -1,0 +1,3 @@
+- No terminal instalar npm install -g json-server
+
+- Após isso definir uma porta com o comando json-server --watch address.json --port 3000
