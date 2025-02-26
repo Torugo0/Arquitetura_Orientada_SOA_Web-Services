@@ -1,3 +1,14 @@
 - No terminal instalar npm install -g json-server
 
 - Após isso definir uma porta com o comando json-server --watch address.json --port 3000
+
+- Métodos HTTP: GET, POST, PUT, DELETE
+
+- Formatos de resposta de uma API REST: JSON(Formato leve e popular para troca de dados) e/ou XML(Formato estruturado e hierárquico, usado para dados complexos)
+
+ARQUITETURA STATELESS
+    - Cada requisição é independente
+    - Segurança aprimorada
+    - Escabilidade e otimizada
+
+Para criar um pacote de uma api que vamos criar é necessario colocar npm init -y
