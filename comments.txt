@@ -6,9 +6,14 @@
 
 - Formatos de resposta de uma API REST: JSON(Formato leve e popular para troca de dados) e/ou XML(Formato estruturado e hierárquico, usado para dados complexos)
 
-ARQUITETURA STATELESS
+ARQUITETURA STATELESS - Aula do dia 26/02/2025
     - Cada requisição é independente
     - Segurança aprimorada
     - Escabilidade e otimizada
 
-Para criar um pacote de uma api que vamos criar é necessario colocar npm init -y
+Para criar um pacote de uma api que vamos criar é necessario colocar npm init -y na pasta que vai ficar a API (Observar a estrutura de pastas)
+    - Não esquecer de colocar um arquivo .gitignore na pasta raiz e dentro desse arquivo escrever node_modules/
+
+Para rodar a API é necessário colocar no terminal node src/index.js 
+    - Após rodar a API é necessário colocar o localhost informado + /cep/o cep que deseja
+    - EX: http://localhost:3000/cep/00011020
